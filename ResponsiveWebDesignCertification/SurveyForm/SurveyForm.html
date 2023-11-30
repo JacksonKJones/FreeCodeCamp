@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Survey</title>
+    <link rel="stylesheet" href="SurveyForm.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Survey</h1>
+    <p id="description">This is a survey about surveys</p>
+    <form method="post" id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Enter Your Name: <input id="name" type="text" placeholder="NAME" required /></label>
+        <label id="email-label" for="email">Enter Your Email: <input id="email" type="email" placeholder="EMAIL" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">How do you prefer to take surveys?
+          <select id="dropdown" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Online</option>
+            <option value="2">Pen and Paper</option>
+            <option value="3">Interview</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>What do you do when survey questions don't provide good answers?</legend>
+        <label for="anger"><input id="anger" type="radio" name="answers" value="crazy" class="inline" checked /> I Get Angry</label>
+        <label for="sad"><input id="sad" type="radio" name="answers" value="crazy" class="inline" /> I Cry</label>
+        <label for="fear"><input id="fear" type="radio" name="answers" value="crazy" class="inline" /> I Get Scared</label>
+      </fieldset>
+      <fieldset>
+        <legend>Do you like when checkboxes are pre-checked?</legend>
+        <label for="like">
+        <input class="inline" id="like" type="checkbox" required value="like" checked/> I like my boxes pre-checked.
+        </label>
+        <label for="dislike">
+        <input class="inline" id="dislike" type="checkbox" required value="dislike" /> I dislike my boxes pre-checked.
+        </label>
+      </fieldset>
+      <fieldset>
+        <label id="number-label" for="number">How would you rate this survey on a scale from 1 to 10? <input id="number" type="number" min=1 max=10 placeholder="1-10" /></label>
+        <label for="bio">Please write an essay on why you feel this way:
+          <textarea id="essay" name="essay" rows="3" cols="50" placeholder="I gave this survey a 10 because..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body
+</html>
