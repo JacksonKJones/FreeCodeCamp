@@ -1,0 +1,75 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+  }
+  
+  #main {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+  
+  #title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+  }
+  
+  #description {
+    text-align: center;
+  }
+  
+  #img-div {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  #image {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #img-caption {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  #subtitle {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+  }
+  
+  #tribute-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  ul, #quote {
+    max-width: 550px;
+    list-style-type: none;
+  }
+  
+  li {
+    margin: 15px;
+    text-align: justify;
+  }
+  
+  #quote {
+    font-style: italic;
+    margin: 20px;
+    text-align: justify;
+    max-width: 500px;
+  }
