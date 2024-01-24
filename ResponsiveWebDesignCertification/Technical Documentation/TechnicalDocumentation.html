@@ -4,9 +4,107 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="TechnicalDocumentation.css" />
-        <title>Java Documentation</title>
+        <title>Documentation</title>
     </head>
     <body>
-        
+        <nav id="navbar">
+            <img src="https://docs.kanka.io/en/latest/_static/kanka-white.png" class="logo" alt="Kanka">
+            <header>Documentation</header>
+            <ul>
+                <li>
+                    <a class="nav-link" href="#Overview">Overview</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Getting_Started">Getting Started</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Entities">Entities</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Characters">Characters</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Locations">Locations</a>
+                </li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Overview">
+                <header>Overview</header>
+                <p>Kanka is a community driven worldbuilding and tabletop RPG campaign management tool perfect for worldbuilders and game masters alike. We help you create and organize your campaigns and worlds with our @mentions system and a whole range of features such as calendars, interactive maps, timelines, organisations, families, and as many characters as you can come up with!</p>
+                <p>Kanka comes with a flexible set of predefined entity types that can be customised and linked to each other. The characters module allows you to create the people that populate your world by giving them names, images, descriptions, have them placed in locations, be members of families and join organisations that share their motivations. You can also set up their physical and personality traits, their goals, fears, motivations and secrets.</p>
+                <p>All entities can have relations that help define how they view other entities in the world. You can easily set up childhood friends between characters, rivalling factions between organisations and families, and catalysts between events.</p>
+                <code>
+                    In addition, all entities can also have what posts, which contain extra information related to the entity, as well as secrets.
+                </code>
+                <p>Multiple files can also be attached to each entity. As you might have guessed, these can also be set to only be visible to certain members of a campaign. This is useful for attaching more images, PDFs or other files to entities that you want to keep easily accessible.</p>
+                <p>For worldbuilders, Kanka offers a powerful calendar feature that holds your years, months, weekdays, weather effects, recurring events, moons, seasons, and much more. If you are familiar with intercalary months, Kanka supports those too. Best of all, your campaign can have several calendars, with events appearing in all of them.</p>
+                <p>To organise everything, you can tag every entity with multiple tags. These can be used to quickly find relevant information, or used as filters on the various interfaces.</p>
+                <p>Kanka’s flexibility doesn’t stop there. If you have no use for the families or quests, you can disable them in your campaign settings, removing them from the various interfaces. You can also export all of your campaign’s data once per day if you are ever scared of losing everything. But don’t worry, we do frequent backups of all of your data anyway.</p>
+                <p>On the topic of frequency, Kanka sees new features, improvements, and bugfixes several times a month. These frequent updates are possible thanks to Kanka’s awesome community, which is most active on our Discord server. All of this would be impossible without the awesome people who support Kanka.</p>
+                <code>
+                    We also provide an API for those with technical know how to build tools that interact with Kanka’s data. We are always excited to see new ways people use Kanka to world build, manage their campaigns, or organise their screen plays using the API, and love helping with these innovations.
+                </code>
+            </section>
+            <section class="main-section" id="Getting_Started">
+                <header>Getting Started</header>
+                <p>Click on the image to open a Youtube video introducing Kanka.</p>
+                <img alt="A short introduction video to Kanka and what it does." src="https://img.youtube.com/vi/z4W5m9hmfUQ/0.jpg">
+                <h2>Account Setup</h2>
+                <ol>
+                    <li>
+                        Go to <a href="kanka.io">kanka.io</a>.
+                    </li>
+                    <li>
+                        Click "Register".
+                    </li>
+                    <li>
+                        Create an account with a Username, Email, and Password or by using a pre-existing Facebook, Google, or Twitter account.
+                        <code>
+                            If you choose to use a third party provider, you can switch to a custom password later in your profile settings.
+                            Creating your account automatically logs you in and creates your first campaign for you.
+                        </code>
+                    </li>
+                    <li>
+                        Give your campaign/worldbuilding project a name.
+                    </li>
+                    <li>
+                        Begin working on your project!
+                    </li>
+                </ol>
+            </section>
+            <section class="main-section" id="Entities">
+                <header>Entities</header>
+                <p>You might be familiar with the concept of an article in traditional wiki software, where each entry is built on the same generic form. Kanka eschews this model, instead each page belongs to one of the strictly defined types, detailed below. We call the generic article an entity.</p>
+                <p>Every character, family, location, map, quest is an entity, but each has their own unique features and way to display data and allow you to interact with it.</p>
+                <p>The available types of entities in Kanka are fixed, so adding your own types isn’t possible. We do this to allow each type to feel unique and have its own features that interact with the rest of the world. This also avoids the issue of traditional note-taking software being too ill-defined, leading to spending more time setting up your hierarchy rather than focusing on building your world.</p>
+                <code>
+                    Most entites have the same basic structure of a name, type, an entry field to describe the entity, an image, and tags, among other common fields. Characters than have more fields like a title, gender, pronouns etc, while a calendar will have seasons and moons.
+                </code>
+            </section>
+            <section class="main-section" id="Characters">
+                <header>Characters</header>
+                <p>Characters are the most used entity type in Kanka, and for good reason. A world needs things in it to feel alive! Characters represent the people living in your world, basically anything with a consciousness than can have agency.</p>
+                <h2>Building a character</h2>
+                <p>Let’s focus on creating a character.</p>
+                <p>From your campaign’s sidebar, click on Characters, this brings you to the list of all characters of the campaign. On the top right, click on the + Character button. This will bring you to the character creation form.</p>
+                <img src="https://docs.kanka.io/en/latest/_images/characters-create.png" alt="Character Creation" />
+                <p>Characters come with a bunch of pre-defined fields. Only the name is mandatory, but we’ll quickly go other the various fields.</p>
+            </section>
+            <section class="main-section" id="Locations">
+                <header>Locations</header>
+                <p>Locations are places something or someone can be in, be it a tavern, a city, a planet, and yes, even a vehicle!</p>
+                <h2>Location Fields</h2>
+                <p>Let’s have a quick overview of fields that are unique to locations.</p>
+                <code>
+                    Parent location: this foreign field allows you to define the parent of the location you’re creating. For example, if you’re creating Paris, the parent location might be France.
+                </code>    
+                <h2>Profile section</h2>
+                <p>The profile section of a location will include any maps that have their location field set to the current map.</p>
+            </section>
+            <footer>
+                <p>A better documentation of this project can be found on <a href="https://docs.kanka.io/en/latest/index.html">Kanka's Website</a></p>
+            </footer>
+        </main>
     </body>
 </html>
