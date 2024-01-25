@@ -91,3 +91,21 @@ h2 {
     font-family: "fraunces";
     margin-bottom: 10px;
 }
+
+.icon {
+    max-width: 300px;
+}
+
+#features {
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: "montserrat";
+}
