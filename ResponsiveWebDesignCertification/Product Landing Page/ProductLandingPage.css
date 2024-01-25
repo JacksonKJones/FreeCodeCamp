@@ -96,7 +96,7 @@ h2 {
     max-width: 300px;
 }
 
-#features {
+#What_Is_It {
     text-align: left;
     max-width: 800px;
     margin: auto;
@@ -108,4 +108,19 @@ h2 {
     justify-content: center;
     margin: 20px;
     font-family: "montserrat";
+}
+
+#video {
+    width: 100%;
+}
+
+#How_Does_It_Work {
+    background-color: var(--text);
+    color: var(--white);
+}
+
+@media only screen and (min-width: 600px) {
+    #nav-bar {
+      flex-direction: row;
+    }
 }
