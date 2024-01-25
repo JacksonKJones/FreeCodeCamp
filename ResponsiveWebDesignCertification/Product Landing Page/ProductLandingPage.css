@@ -56,4 +56,38 @@ body {
 
 .nav-links li {
     text-align: center;
-  }
+}
+
+#email-section {
+    margin-top: 100px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--green);
+}
+
+#submit {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+section::before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none; 
+}
+
+section {
+    margin: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "fraunces";
+    margin-bottom: 10px;
+}
