@@ -1,0 +1,59 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --text: hsl(228, 12%, 48%);
+    --pale: hsl(32, 37%, 92%);
+    --green: hsl(158, 36%, 37%);
+    --header-text: hsl(212, 21%, 14%);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color:  var(--pale);
+}
+
+#header-img {
+    width: 60px;
+    object-fit: contain;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    padding: 0 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.phonebloks {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: "montserrat";
+}
+
+.nav-links li {
+    text-align: center;
+  }
